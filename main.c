@@ -23,5 +23,8 @@ void draw(int n){
 }
 
 int main(void){
-	draw(11);	
+	int number;
+	printf("Input a number: ");
+	scanf("%d", &number);
+	draw(number);	
 }
